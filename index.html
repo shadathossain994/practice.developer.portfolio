@@ -1,39 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Developer</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/portfolio.css" />
+  </head>
+  <body>
     <!-- start header section -->
+    <!-- start nav section -->
     <header>
-        <nav>
-            <h3>Mary</h3>
-            <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button>Hire Me</button></li>
-            </ul>
-        </nav>
+      <nav>
+        <h3 class="nav-title">Ma<span style="color: #fd6e0a">r</span>y</h3>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><button class="btn-primary">Hire Me</button></li>
+        </ul>
+      </nav>
+      <!-- end nav section -->
+
+      <!-- start banner section -->
+
+      <div class="banner-container">
+        <div class="banner-info">
+            <h3 class="banner-title">Hi, I am</h3>
+            <h2 class="banner-main-title">Marry Hardy</h2>
+            <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+            <button class="btn-primary">Download CV</button>
+            <button class="btn-clasic">Contact</button>
+        </div>
+        <img src="images/hardy.png" alt="">
+      </div>
+
+      <!-- end banner section -->
     </header>
     <!-- end header section -->
 
+
     <!-- start main section -->
     <main>
+        <!-- start about section -->
+        <section class="about-containter">
+            <h3 class="about-title">About Me</h3>
+            <p class="about-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            
+            <div class="info">
+                <div class="info-child">
+                    <h2 class="info-sub-title">Name:</h2>
+                    <h2 class="info-title">Mary Hardy </h2>
+                </div>
+                <div class="info-child">
+                    <h2 class="info-sub-title">Email:</h2>
+                    <h2 class="info-title">info@gmail.com</h2>
+                </div>
+                <div class="info-child">
+                    <h2 class="info-sub-title">Date of birth:</h2>
+                    <h2 class="info-title">11 November 1987</h2>
+                </div>
+                <div class="info-child">
+                    <h2 class="info-sub-title">From:</h2>
+                    <h2 class="info-title">Los Angeles, USA</h2>
+                </div>
+                
+            </div>
 
-
+        </section>
+        <!-- end about section -->
 
     </main>
     <!-- end main section -->
 
     <!-- start footer section -->
-    <footer>
-
-
-
-    </footer>
+    <footer></footer>
     <!-- start footer section -->
-</body>
+  </body>
 </html>
